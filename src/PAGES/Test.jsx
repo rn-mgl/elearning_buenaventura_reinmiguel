@@ -89,15 +89,15 @@ export default function Test() {
               <div key={q.id}>
                 <div className="flex flex-col mb-5 gap-3 border-2 p-5 rounded-lg">
                   <div className="flex gap-5 font-lexend text-lg">
-                    <div>{q.id},</div>
+                    <div>{q.id}.</div>
                     <div>{q.question}</div>
                   </div>
 
                   <div className="ml-10 flex gap-10 font-poppins text-lg">
-                    <label className="flex items-center justify-center gap-2">
+                    <label className="flex items-center justify-center gap-2 cursor-pointer">
                       True
                       <input
-                        className={` ${answers[q.id] && "bg-pr-orange text-white"}`}
+                        className={` ${answers[q.id] && "bg-pr-orange text-white"} cursor-pointer`}
                         checked={answers[q.id] === "true"}
                         id={q.id}
                         name={q.id}
@@ -106,10 +106,10 @@ export default function Test() {
                         onChange={(e) => handleCheck(e.target)}
                       />
                     </label>
-                    <label className="flex items-center justify-center gap-2">
+                    <label className="flex items-center justify-center gap-2 cursor-pointer">
                       False
                       <input
-                        className={`${answers[q.id] && "bg-pr-orange text-white"}`}
+                        className={`${answers[q.id] && "bg-pr-orange text-white"} cursor-pointer`}
                         checked={answers[q.id] === "false"}
                         id={q.id}
                         name={q.id}
