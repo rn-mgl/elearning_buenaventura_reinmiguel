@@ -22,7 +22,7 @@ const lesson = [
     main: "HOW TO BECOME A GOOD PROBLEM SOLVER",
     body: "Put in the work. This step is the same in any other skill you want to enhance, you will not become the best gamer by watching pros, you will not be better in playing guitar by watching others, and certainly, you will not become a good programmer by watching others. What you need to do is do it with them, play while watching the gamer, follow the hands of the one playing the guitar, and understand the knowledge being shared to you by the developer. Do those things with the people you watch, putting in the work speaks louder than saying you have watched 8000 hours worth of tutorials.",
     takeaway:
-      "Stop the constatn watching and start doing. Yes, you will need tutorials, but you will also need to do what you should be doing. A talk that does not walk will not proceed.",
+      "Stop the constant watching and start doing. Yes, you will need tutorials, but you will also need to do what you should be doing. A talk that does not walk will not proceed.",
   },
   {
     id: 4,
@@ -55,7 +55,7 @@ const lesson = [
   {
     id: 8,
     main: "LET WHAT YOU WANT TO LEARN BE YOUR GUIDE",
-    body: "In learning programming, you will more things that are not entirely focused on what you want to know. There are new ideas, technologies, and terminologies that you will encounter everyday. These are knowledge that will provide more drive to your determination as they increase your curiosity in the things that happen in our field of technology.",
+    body: "In learning programming, you will encounter more things that are not entirely focused on what you want to know. There are new ideas, technologies, and terminologies that you will encounter everyday. These are knowledge that will provide more drive to your determination as they increase your curiosity in the things that happen in our field of technology.",
     takeaway:
       "Let knowledge flow when learning, do not disregard things that are new to you because these are information that will be added to your tools and skills in problem solving. Let your curiosity guide you because that is how people in the field of technology become better and more free.",
   },
